@@ -2,6 +2,11 @@
   background-color: red;
   color: white;
 }
+
 #going_to_the_right {
   margin-left: 100px;
 }
+
+/* div.col {
+  width: 200;                /* width: 33%; of the size screen */
+} */
