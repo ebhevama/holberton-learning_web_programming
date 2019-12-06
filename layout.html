@@ -4,30 +4,33 @@
     <!-- adding Bootstrap to my web page -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <meta charset="utf-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
-    <!-- <link rel="stylesheet" href="style.css"> -->  <!-- for external css stylesheet file -->
+    <meta charset="utf-8">  <!-- metadata not displayed in the web -->
+    <!-- displaying webs correctly on mobile devices*** -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">  <!-- for external css stylesheet file -->
     <title>Layout html File</title> <!--nb: avoid inline style, favour external css stylesheet***-->
   </head>
   <body>
-    <div class="container" style="margin: 0px;">     <!-- gives useless outer blank space+++??? -->
-
      <!-- <h1>Creating Layouts using Bootstrap</h1> -->
 
-    <div class="row" style="border: 3px solid black; position: absolute; top: 0px; width: 100%;">
-      First row
+    <div class="header">      <!-- header & footer instead another row*** -->
+      <p>First row</p>
+    </div>  <!--  <div>: -stands for division-, to create layouts in html -->
+    <!-- &nbsp; &nbsp; &nbsp; &nbsp; -->   <!-- Nonbreaking space -->
+    <div class="row" style="height: 100px; width: 100%;">
     </div>
 
-    <div class="row" style="height: 50px; width: 100%;margin: 0px;">
-    </div>
-
-    <div class="jumbotron" style="width: 100%;">    <!-- style="position: absolute; top: -5px;" -->
+    <div class="jumbotron">
       <center>
         Hello
       <center>
     </div>
 
-      <div class="row" style="height: 100px; width: 100%;">
+    <div class="container">     <!-- gives useless outer blank space+++??? -->
+
+    </div>
+
+      <div class="row">
         <div class="col" style="background-color:blue;">
           First col                <!-- Content of any div class -->
         </div>
@@ -39,9 +42,9 @@
         </div>
       </div>
 
-      <div class="row" style="border: 3px solid black; position: absolute; bottom: 0px; width: 100%;">
-        Third row
-      </div>
+    <div class="footer">      <!-- header & footer instead another row*** -->
+      <p>Third row</p>
     </div>
+
   </body>
 </html>
