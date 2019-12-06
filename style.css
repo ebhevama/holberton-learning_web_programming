@@ -1,3 +1,4 @@
+/*css -Cascading Style Sheets-*/
 #white_on_red {
   background-color: red;
   color: white;
@@ -7,6 +8,6 @@
   margin-left: 100px;
 }
 
-/* div.col {
-  width: 200;                /* width: 33%; of the size screen */
-} */
+/* div.col { */
+/*   width: 200; */        /* width: 33%; of the size screen */
+/* } */
