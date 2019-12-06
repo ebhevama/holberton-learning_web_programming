@@ -1,13 +1,32 @@
 /*css -Cascading Style Sheets-*/
-#white_on_red {
+#white_on_red {                   /*id selector*/
   background-color: red;
   color: white;
 }
 
-#going_to_the_right {
-  margin-left: 100px;
+#going_to_the_right {             /*id selector*/
+  margin-left: 50px;
 }
 
-/* div.col { */
+/* div.col { */             /*class selector*/
 /*   width: 200; */        /* width: 33%; of the size screen */
 /* } */
+
+div.row{                      /*class selector*/
+  /*border: 2px solid;*/      /*border tick*/
+  height: 200px;
+  width: 100%;
+}
+
+div.header{                   /*class selector*/
+  border: 2px solid;          /*border tick*/
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+div.footer{                   /*class selector*/
+  border: 2px solid;          /*border tick*/
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
