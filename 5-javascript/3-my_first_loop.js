@@ -2,17 +2,19 @@
 //implementing a while loop in JavaScript
 // <!DOCTYPE html>
 // <html lang="en">
-// <head>
+//   <head>
 //     <meta charset="utf-8">
 //     <title>While loop in JavaScript</title>
-// </head>
-// <body>
+//   </head>
+//   <body>
 //     <script>
-    var i = 0;
-    while(i <= 10) {
-        document.write("" + i + "<br>");       //<br> breaking line
-        i++;
-    }
+      var i = 0;
+      while(i <= 10) {
+      //document.write("<p>" + i + "</p>"); //<p> dislike Holberton
+      //document.write("" + i + "<br>");    //<br> breaking line also dislike H
+      console.log(i)                        //print my_variable
+      i++;
+      }
 //     </script>
-// </body>
+//   </body>
 // </html>
