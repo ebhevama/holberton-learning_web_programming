@@ -12,7 +12,7 @@
       while(i <= 10) {
       //document.write("<p>" + i + "</p>"); //<p> dislike Holberton
       //document.write("" + i + "<br>");    //<br> breaking line also dislike H
-      console.log(i)                        //print my_variable
+      console.log(i)                        //Print command in console***+++
       i++;
       }
 //     </script>
