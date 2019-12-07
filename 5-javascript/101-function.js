@@ -13,15 +13,15 @@
     }
 
     function showdoublef(p1) {          //function to double any given value
-      var double = 2*p1;
+      var showdoublev = 2*p1;
       // return 2*p1;                   //returns 2*p1. Not working+++???
-      document.write(double);
+      document.write(showdoublev);
     }
 
     // Calling functions
     hw();                                //Prints: hello world
     document.write("<br>");
     showdoublef(4);     //Give here any number you want, it'll print doubled: 8*
-  </script>
+  </script>             //still missing put text "The double of (p1) is (2*p1)"
 </body>
 </html>
