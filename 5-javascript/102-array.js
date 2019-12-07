@@ -7,12 +7,10 @@
   </head>
   <body>
     <script>
-    // Creating variables
-    var dwarvesn = ["Doc", "Grumpy", "Happy", "Sleepy", "Bashful", "Sneezy",
-    "Dopey"];
+      var dwarvesn = ["Doc", "Grumpy", "Happy", "Sleepy", "Bashful", "Sneezy",
+      "Dopey"];                       //Creating variables
 
-    // Printing variable values
-    document.write(dwarvesn);
-    </script>
+      document.write(dwarvesn);       //Printing variable values
+    </script>            //still missing print an space between element's array
   </body>
 </html>
