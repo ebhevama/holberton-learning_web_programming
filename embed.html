@@ -8,28 +8,21 @@
     <link rel="stylesheet" href="style.css">  <!-- for external css stylesheet file -->
     <!-- displaying webs correctly on mobile devices*** -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>js button and alert popup box in file no .ext</title>
-    <style>
-      #myBtn {                    /*id selector in "8" file***+++/*/
-        background-color: yellow; /*'cause "8" file isn't linked to style.css */
-        color: black;
-        font-weight: bold;        /*CSS font property*/
-        border-style: ridge;
-        border-color: gainsboro;
-        border-width: medium;
+    <title>iframes or embed code</title>
+    <!-- <style>               /*css setting: embedded or internal style*/
+      iframe {
+        width: 560px;
+        height: 315px;
       }
-    </style>
+   </style> -->
   </head>
   <body>
-    <button id="myBtn" type="button" class="btn btn-primary">Mystery Button</button>
-    <script>
-      function saySurprise(){           //Defining custom functions
-        alert("\"Surprise!\"");
-      }
-
-      var btn = document.getElementById("myBtn"); //Selecting button element
-
-      btn.addEventListener("click", saySurprise); //Assigning event listeners to the button
-    </script>
+    <center>
+      <h1>Embedded songs from SoundCloud</h1>
+      <div class="jumbotron">         <!-- Inline style -->
+      <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/302520493&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+      <!-- <p><a href="https://soundcloud.com/fanon-records/grupo-canalon-de-timbiqui-la" target="soundcloud_iframe">Open the playlist</a></p> -->
+      </div>
+    <center>
   </body>
 </html>
