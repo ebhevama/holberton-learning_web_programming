@@ -13,15 +13,12 @@
 //   </head>
 //   <body>
 //     <script type="text/javascript">
-      var x = 1;                          //defining variables
-
-      while(x<=12) {
-        // console.log(h)                    //Print command in console
-        for (var y = 1; y<=12; y++) {
-          // console.log(x *= y)                  //Print command in console
-        }
-        x++;
-        console.log(x *= y)                  //Print command in console
+      for(var x = 1; x <= 12; x++) {
+	      for(var y = 1; y <=12; y++) {
+	      	// document.writeln(x*y + "<br>");
+          console.log(x*y)                  //Print command in console
+          if (y==12) {"<br>";}
+	      }
       }
 //     </script>
 //   </body>
