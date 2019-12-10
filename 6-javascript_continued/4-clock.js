@@ -1,6 +1,5 @@
-// //Task4's solution: answer file 3-grading_system.js
+// //Task4's solution: answer file 4-clock.js
 //Using "node" in the command line console: node file.js
-//Then "enter" to execute the order
 
   var h = 0;                          //defining variable: h (hour), m (minute)
 
