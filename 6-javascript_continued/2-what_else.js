@@ -1,4 +1,4 @@
-// //Task1's solution: answer file 1-condition.js
+// //Task2's solution: answer file 2-what_else.js
 //Using "node" in the command line console: node file.js parameter
 //Then "enter" to execute the order
 
