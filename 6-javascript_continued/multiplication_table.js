@@ -17,7 +17,7 @@
 	      for(var y = 1; y <=12; y++) {
 	      	// document.writeln(x*y + "<br>");
           console.log(x*y)                  //Print command in console
-          if (y==12) {"<br>";}
+          // if (y==12) {"<br>";}
 	      }
       }
 //     </script>
